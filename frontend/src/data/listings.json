@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "address": "612 Runway Dr. SW St. Louis, MI",
+        "numBed": 3,
+        "numBath": 2,
+        "propertyType": "House",
+        "propertyCategory": "For Sale",
+        "price": 240000,
+        "images": ["image1.jpg"]
+    },
+    {
+        "id": 2,
+        "address": "741 Sesame St. NW St. Louis, MI",
+        "numBed": 2,
+        "numBath": 1,
+        "propertyType": "House",
+        "propertyCategory": "For Sale",
+        "price": 180000,
+        "images": ["image2.jpg"]
+    },
+    {
+        "id": 3,
+        "address": "1213 CR 454 St. Louis, MI",
+        "numBed": 4,
+        "numBath": 2,
+        "propertyType": "House",
+        "propertyCategory": "For Rent",
+        "price": 1300,
+        "images": ["image3.jpg"]
+    },
+    {
+        "id": 4,
+        "address": "755 Duncan Rd. NE St. Louis, MI",
+        "numBed": 2,
+        "numBath": 1,
+        "propertyType": "Apartment",
+        "propertyCategory": "For Rent",
+        "price": 950,
+        "images": ["image4.jpg"]
+    }
+]
