@@ -8,3 +8,4 @@ class Property(models.Model):
     propertyCategory = models.CharField(max_length=20)
     price = models.IntegerField()
     images = models.CharField()
+    agent = models.CharField()

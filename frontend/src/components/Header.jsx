@@ -6,7 +6,7 @@ const Header = () => {
     <>
         <Navbar expand="lg" bg="dark" data-bs-theme="dark">
             <Container>
-                <Navbar.Brand href="/">Stallion Realty</Navbar.Brand>
+                <Navbar.Brand href="/">Williams Realty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="justify-content-end">
                     <Nav className="ms-auto">
