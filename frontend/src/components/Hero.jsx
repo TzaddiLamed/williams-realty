@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap';
 const Hero = () => {
   return (
     <>
-      <Image src="images/hero.jpg" fluid />;
+      <Image src="images/hero.jpg" fluid />
     </>
   )
 }
