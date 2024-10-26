@@ -7,7 +7,7 @@
         "propertyType": "House",
         "propertyCategory": "For Sale",
         "price": 240000,
-        "images": ["image1.jpg"]
+        "images": ["images/house1.jpg"]
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "propertyType": "House",
         "propertyCategory": "For Sale",
         "price": 180000,
-        "images": ["image2.jpg"]
+        "images": ["images/house2.jpg"]
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "propertyType": "House",
         "propertyCategory": "For Rent",
         "price": 1300,
-        "images": ["image3.jpg"]
+        "images": ["images/house3.jpg"]
     },
     {
         "id": 4,
@@ -37,6 +37,6 @@
         "propertyType": "Apartment",
         "propertyCategory": "For Rent",
         "price": 950,
-        "images": ["image4.jpg"]
+        "images": ["images/house4.jpg"]
     }
 ]

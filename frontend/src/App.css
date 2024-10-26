@@ -63,3 +63,8 @@
     font-size: 1.2rem;
   }
 }
+
+.listing-card img {
+  width: 100px;
+  height: 100px;
+}
