@@ -15,12 +15,12 @@ const Footer = () => {
                 </Col>
                 <Col sm={12} md={4}>
                     <Nav className='flex-column fs-5'>
-                        <h3>Useful Links</h3>
-                        <NavLink href='#' className='text-white fs-6 ms-5 ps-5'>Home</NavLink>
-                        <NavLink href='#' className='text-white fs-6 ms-5 ps-5'>About</NavLink>
-                        <NavLink href='#' className='text-white fs-6 ms-5 ps-5'>Listings</NavLink>
-                        <NavLink href='#' className='text-white fs-6 ms-5 ps-5'>Contact</NavLink>
-                        <NavLink href='#' className='text-white fs-6 ms-5 ps-5'>Contact</NavLink>
+                        <h3 className='ms-3'>Useful Links</h3>
+                        <NavLink href='#' className='text-white fs-6'>Home</NavLink>
+                        <NavLink href='#' className='text-white fs-6'>About</NavLink>
+                        <NavLink href='#' className='text-white fs-6'>Listings</NavLink>
+                        <NavLink href='#' className='text-white fs-6'>Contact</NavLink>
+                        <NavLink href='#' className='text-white fs-6'>Contact</NavLink>
                     </Nav>
                 </Col>
                 <Col sm={12} md={3}>
