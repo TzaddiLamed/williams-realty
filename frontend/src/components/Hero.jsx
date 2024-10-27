@@ -1,4 +1,5 @@
 import React from 'react'
+import { Button } from 'react-bootstrap';
 
 const Hero = () => {
   return (
@@ -9,6 +10,7 @@ const Hero = () => {
       <div className="hero-content">
         <h1 className="hero-txt">Welcome to Williams Realty</h1>
         <p className="hero-txt">Let us help you find your dream home.</p>
+        <Button variant="primary" className="hero-btn">View Properties</Button>
       </div>
     </div>
   )
