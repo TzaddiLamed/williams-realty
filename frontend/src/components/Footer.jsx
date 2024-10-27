@@ -1,5 +1,6 @@
 import React from 'react'
-import { Container, Row, Col, Stack, Image, Nav, NavLink} from 'react-bootstrap';
+import { Container, Row, Col, Stack, Nav, NavLink} from 'react-bootstrap';
+import './componentStyles.css';
 
 const Footer = () => {
   return (

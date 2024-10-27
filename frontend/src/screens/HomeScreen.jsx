@@ -4,6 +4,7 @@ import Hero from '../components/Hero';
 import Footer from '../components/Footer';
 import ListingCard from '../components/ListingCard';
 import listings from '../data/listings.json';
+import '../styles/HomeScreen.css';
 
 const HomeScreen = () => {
   return (
