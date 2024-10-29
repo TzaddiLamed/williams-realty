@@ -52,5 +52,47 @@
 /* Footer Styles */
 
 footer {
-  margin-top: 55px;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+}
+
+.footer-brand {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.foot-nav-item {
+  line-height: 1;
+  margin-left: 10px;
+  color: #bbb;
+  transition: color 0.3s ease;
+}
+
+.foot-nav-item:hover {
+  color: #fff;
+}
+
+.copy-info {
+  text-align: center;
+  color: #bbb;
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+footer h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+footer .mx-5 {
+  margin-left: auto !important; /* Change to auto for centering */
+  margin-right: auto !important; /* Change to auto for centering */
 }
