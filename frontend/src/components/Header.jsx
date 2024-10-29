@@ -1,10 +1,11 @@
 import React from 'react'
-import { Container, Nav, Navbar, Image } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
+import './componentStyles.css';
 
 const Header = () => {
   return (
     <>
-        <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+        <Navbar expand="lg" className="bg-light-blue" data-bs-theme="light">
             <Container>
                 <Navbar.Brand href="/">Williams Realty</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
