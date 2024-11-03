@@ -1,7 +1,7 @@
  import React from 'react';
  import './componentStyles.css';
  import { Button } from 'react-bootstrap';
- import { Link } from 'react-router-dom';
+ import { LinkContainer } from 'react-router-bootstrap';
 
 const ListingCard = ({ listing }) => {
   return (
@@ -16,7 +16,9 @@ const ListingCard = ({ listing }) => {
         <b>{listing.propertyCategory}</b>
         <h4>${listing.price}</h4>
       </div>
-      <Button variant="primary" className="button">View Listing</Button>
+      <LinkContainer to={`/listing/${listing.id}`}>
+        <Button variant="primary" className="button">View Listing</Button>
+      </LinkContainer>
     </div>
   )
 }
